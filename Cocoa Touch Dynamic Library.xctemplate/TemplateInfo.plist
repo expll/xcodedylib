@@ -39,9 +39,9 @@
 </string>
 	</dict>
 	<key>Description</key>
-	<string>This template builds a static library that links against the Foundation framework.</string>
+	<string>This template builds a dynamic library that links against the Foundation framework.</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.cocoaTouchStaticLibrary</string>
+	<string>com.apple.dt.unit.cocoaTouchDynamicLibrary</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
@@ -77,7 +77,7 @@
 				<string>Foundation</string>
 			</array>
 			<key>ProductType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>com.apple.product-type.library.dynamic</string>
 			<key>SharedSettings</key>
 			<dict>
 				<key>DSTROOT</key>
